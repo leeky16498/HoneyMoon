@@ -20,6 +20,8 @@
 		79022FFE281C8548007D3395 /* HeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79022FFD281C8548007D3395 /* HeaderComponent.swift */; };
 		79023000281C85B4007D3395 /* GuideComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79022FFF281C85B4007D3395 /* GuideComponent.swift */; };
 		79023002281C86D9007D3395 /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79023001281C86D9007D3395 /* GuideView.swift */; };
+		79AAA9BE281D4E4600AB3CB4 /* SymbolModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AAA9BD281D4E4600AB3CB4 /* SymbolModifier.swift */; };
+		79AAA9C1281D517500AB3CB4 /* CardTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AAA9C0281D517500AB3CB4 /* CardTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		79022FFD281C8548007D3395 /* HeaderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderComponent.swift; sourceTree = "<group>"; };
 		79022FFF281C85B4007D3395 /* GuideComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideComponent.swift; sourceTree = "<group>"; };
 		79023001281C86D9007D3395 /* GuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
+		79AAA9BD281D4E4600AB3CB4 /* SymbolModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolModifier.swift; sourceTree = "<group>"; };
+		79AAA9C0281D517500AB3CB4 /* CardTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,8 @@
 		79022FDC281C7E77007D3395 /* HoneyMoon */ = {
 			isa = PBXGroup;
 			children = (
+				79AAA9BF281D516500AB3CB4 /* Extension */,
+				79AAA9BB281D4E3200AB3CB4 /* Modifier */,
 				79022FFC281C8530007D3395 /* Component */,
 				79022FDD281C7E77007D3395 /* HoneyMoonApp.swift */,
 				79022FF7281C81F8007D3395 /* Views */,
@@ -124,6 +130,22 @@
 				79022FFF281C85B4007D3395 /* GuideComponent.swift */,
 			);
 			path = Component;
+			sourceTree = "<group>";
+		};
+		79AAA9BB281D4E3200AB3CB4 /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				79AAA9BD281D4E4600AB3CB4 /* SymbolModifier.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
+		79AAA9BF281D516500AB3CB4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				79AAA9C0281D517500AB3CB4 /* CardTransition.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +222,8 @@
 				79022FF3281C8199007D3395 /* HoneyMoonData.swift in Sources */,
 				79022FFB281C8460007D3395 /* FooterView.swift in Sources */,
 				79022FF9281C8383007D3395 /* HeaderView.swift in Sources */,
+				79AAA9BE281D4E4600AB3CB4 /* SymbolModifier.swift in Sources */,
+				79AAA9C1281D517500AB3CB4 /* CardTransition.swift in Sources */,
 				79022FE0281C7E77007D3395 /* ContentView.swift in Sources */,
 				79022FFE281C8548007D3395 /* HeaderComponent.swift in Sources */,
 				79022FF0281C8167007D3395 /* HoneyMoonModel.swift in Sources */,
